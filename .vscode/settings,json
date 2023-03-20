@@ -1,0 +1,7 @@
+{
+	"sonarlint.rules": {
+		"javascript:S1874": {
+			"level": "off"
+		}
+	}
+}
