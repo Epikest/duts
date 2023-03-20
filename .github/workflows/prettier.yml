@@ -24,3 +24,4 @@ jobs:
       uses: creyD/prettier_action@v4.3
       with:
         prettier_options: --write **/*.{js,md}
+        commit_message: prettify code
