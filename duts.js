@@ -25,7 +25,7 @@ webpackChunkdiscord_app.push([
 			document.execCommand("copy")
 			document.documentElement.removeChild(_)
 			document.documentElement.removeChild(btn)
+			console.log("check your clipboard")
 		})
-		console.log("check your clipboard")
 	}
 ])
