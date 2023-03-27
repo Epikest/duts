@@ -49,5 +49,5 @@ the following steps should work on most Chromium-based browsers such as Chrome, 
 
 3. while discord is the focused tab, type `javascript:` into the address bar while removing any other text
 4. paste the script and press enter
-    - some mobile operating systems or browsers will remove the `javascript:` bit after you paste the script, so the steps 3 and 4 may need to be reversed
+    - some mobile operating systems (namely iOS) and browsers will remove the `javascript:` bit after you paste the script, so the steps 3 and 4 may need to be reversed
 5. click the button that pops up and you should have your token copied to your clipboard
