@@ -3,6 +3,8 @@ webpackChunkdiscord_app.push([
 	{},
 	(req) => {
 		const _ = document.createElement("textarea")
+		_.style.position = "absolute"
+		_.style.top = "-6969px"
 		_.value = Object.values(req.c)
 			.find((x) => x?.exports?.default?.getToken)
 			?.exports?.default?.getToken()
