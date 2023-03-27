@@ -30,5 +30,5 @@ webpackChunkdiscord_app.push([
 			document.documentElement.removeChild(btn)
 			console.log("check your clipboard")
 		})
-	},
+	}
 ])
