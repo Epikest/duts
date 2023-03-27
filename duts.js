@@ -11,12 +11,15 @@ webpackChunkdiscord_app.push([
 		btn.style.backgroundColor = "#ffafaf"
 		btn.style.borderRadius = "50rem"
 		btn.style.color = "#57171f"
-		btn.style.fontSize = "4rem"
+		btn.style.fontSize = "5vw"
 		btn.style.left = "50%"
+		btn.style.maxWidth = "100%"
 		btn.style.padding = "1rem 2rem"
 		btn.style.position = "absolute"
+		btn.style.textOverflow = "hidden"
 		btn.style.top = "50%"
 		btn.style.transform = "translate(-50%, -50%)"
+		btn.style.whiteSpace = "nowrap"
 		btn.style.zIndex = "727"
 		btn.textContent = "copy token to clipboard"
 		document.documentElement.appendChild(btn)
@@ -27,5 +30,5 @@ webpackChunkdiscord_app.push([
 			document.documentElement.removeChild(btn)
 			console.log("check your clipboard")
 		})
-	}
+	},
 ])
