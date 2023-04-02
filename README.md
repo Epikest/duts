@@ -27,13 +27,15 @@
 
 the following steps should work on all desktop web browsers as well as the Discord desktop app:
 
-1. open the developer web console (ctrl + shift + i or ⌥ + ⌘ + i on MacOS)
-2. copy the script from [here](https://cdn.jsdelivr.net/gh/Epikest/duts/duts.min.js)
-3. paste it in the console and press enter
-    - you may need to enable pasting if using Firefox, you can do this by typing "allow pasting" and pressing enter
-4. click the button that pops up and you should have your token copied to your clipboard
+1. open the developer web console (`Ctrl` + `Shift` + `I` or `⌥` + `⌘` + `I` on MacOS)
+    - if using the stable channel of the Discord desktop app, set `"DANGEROUS_ENABLE_DEVTOOLS_ONLY_ENABLE_IF_YOU_KNOW_WHAT_YOURE_DOING": true` in the Discord app settings file (`%appdata%/discord/settings.json` on Windows) and reload the app (`Ctrl` + `R`) else the developer tools panel won't open
+2. make sure you're on the `Console` tab
+3. copy the script from [here](https://cdn.jsdelivr.net/gh/Epikest/duts/duts.min.js)
+4. paste the script in the console and press `Enter`
+    - you may need to enable pasting if using Firefox, you can do this by typing `allow pasting` and pressing `Enter`
+5. click the button that pops up and you should have your token copied to your clipboard
 
-### Chromium-based browsers
+### Chromium-based browsers on mobile and desktop
 
 the following steps should work on most Chromium-based browsers such as Chrome, Chromium, Opera, Brave, Vivaldi, etc.:
 
@@ -47,7 +49,7 @@ the following steps should work on most Chromium-based browsers such as Chrome, 
     	.then((d) => eval(d))
     ```
 
-3. while discord is the focused tab, type `javascript:` into the address bar while removing any other text
-4. paste the script and press enter
+3. while Discord is the focused tab, type `javascript:` into the address bar while removing any other text
+4. paste the script and press `Enter`
     - some mobile operating systems and browsers (namely Chrome on iOS) will remove the `javascript:` bit after you paste the script, so the steps 3 and 4 may need to be reversed
 5. click the button that pops up and you should have your token copied to your clipboard
