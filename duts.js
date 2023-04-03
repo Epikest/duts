@@ -8,7 +8,7 @@ webpackChunkdiscord_app.push([
 		_.value = Object.values(req.c)
 			.find((x) => x?.exports?.default?.getToken)
 			?.exports?.default?.getToken()
-		document.documentElement.appendChild(_)
+
 		const btn = document.createElement("button")
 		btn.style.backgroundColor = "#ffafaf"
 		btn.style.borderRadius = "50rem"
@@ -24,13 +24,19 @@ webpackChunkdiscord_app.push([
 		btn.style.whiteSpace = "nowrap"
 		btn.style.zIndex = "727"
 		btn.textContent = "copy token to clipboard"
-		document.documentElement.appendChild(btn)
 		btn.addEventListener("click", () => {
 			_.select()
 			document.execCommand("copy")
 			document.documentElement.removeChild(_)
 			document.documentElement.removeChild(btn)
-			console.log("check your clipboard")
+			console.log(
+				"%ccheck your clipboard",
+				// funny discord console font
+				"color:#5865f2;font-size:72px;-webkit-text-stroke-width:2px;-webkit-text-stroke-color:black;font-weight:bold"
+			)
 		})
+
+		document.documentElement.appendChild(_)
+		document.documentElement.appendChild(btn)
 	}
 ])
