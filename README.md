@@ -19,6 +19,7 @@
 	<a href="./LICENSE.md">
 		<img alt="License" src="https://img.shields.io/github/license/Epikest/duts?style=flat-square"/>
 	</a>
+	<img alt="Browser window screenshot" src="https://cdn.lewd.host/G46C4yHW.png"/>
 </p>
 
 ## usage
@@ -48,6 +49,8 @@ the following steps should work on most Chromium-based browsers such as Chrome, 
     	.then((r) => r.text())
     	.then((d) => eval(d))
     ```
+
+    <sup>it's a Discord CDN URL because of [CSP](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)</sup>
 
 3. while Discord is the focused tab, type `javascript:` into the address bar while removing any other text
 4. paste the script and press `Enter`
