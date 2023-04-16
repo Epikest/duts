@@ -77,27 +77,28 @@ it's a bit more involved, but still pretty easy and works on almost all browsers
 5. run the bookmarklet by opening it like you would any other bookmark
 6. press the button that pops up and you should have your token copied to your clipboard
 
+<!-- prettier-ignore -->
 [^compatibility]: the script has been certified to function as intended on the following platforms:
 
     ### Android
 
-    -   Canary build 189717 (5d9c3fd) using version 13 (build TP1A.220624.014) on Google Pixel 6 via Google Chrome 64-bit 112.0.5615.47
-    -   Canary build 189717 (5d9c3fd) using version 13 (build TP1A.220905.004) on Samsung Galaxy S22+ via Brave Canary 64-bit 1.52.42 (Chromium 112.0.5615.87)
-    -   Stable build 189617 (5a59d26) using version 14 Beta 1 (build UPB1.230309.014) on Google Pixel 7 Pro via Google Chrome 64-bit 103.0.5060.71
+    - Canary build 189717 (5d9c3fd) using version 13 (build TP1A.220624.014) on Google Pixel 6 via Google Chrome 64-bit 112.0.5615.47
+    - Canary build 189717 (5d9c3fd) using version 13 (build TP1A.220905.004) on Samsung Galaxy S22+ via Brave Canary 64-bit 1.52.42 (Chromium 112.0.5615.87)
+    - Stable build 189617 (5a59d26) using version 14 Beta 1 (build UPB1.230309.014) on Google Pixel 7 Pro via Google Chrome 64-bit 103.0.5060.71
 
     ### iOS/iPadOS
 
-    -   Canary build 187775 (0be0543) using version 16.3.1 on Apple iPhone 14 Pro Max via Google Chrome 112.0.5615.46
-    -   Stable build 189617 (5a59d26) using version 16.1.1 on iPad (8th generation) via Safari
+    - Canary build 187775 (0be0543) using version 16.3.1 on Apple iPhone 14 Pro Max via Google Chrome 112.0.5615.46
+    - Stable build 189617 (5a59d26) using version 16.1.1 on iPad (8th generation) via Safari
 
     ### Windows 10 64-bit
 
-    -   Canary build 189717 (5d9c3fd) using version 21H2 (build 19044.1466) via official desktop app
-    -   Stable build 189617 (5a59d26) using version 21H2 (build 19044.1466) via Firefox Developer Edition (aurora) 64-bit 113.0b3
-    -   Stable build 189617 (5a59d26) using version 21H2 (build 19044.1466) via Microsoft Edge 64-bit 112.0.1722.39 (Chromium 112.0.5615.49)
+    - Canary build 189717 (5d9c3fd) using version 21H2 (build 19044.1466) via official desktop app
+    - Stable build 189617 (5a59d26) using version 21H2 (build 19044.1466) via Firefox Developer Edition (aurora) 64-bit 113.0b3
+    - Stable build 189617 (5a59d26) using version 21H2 (build 19044.1466) via Microsoft Edge 64-bit 112.0.1722.39 (Chromium 112.0.5615.49)
 
     ### Windows 11
 
-    -   Canary build 189717 (5d9c3fd) using version 22H2 (build 22621.1265) via Brave Nightly 64-bit 1.52.47 (Chromium 112.0.5615.121)
-    -   Canary build 189717 (5d9c3fd) using version 22H2 (build 22621.1265) via official desktop app
-    -   Stable build 187599 (c2dd678) using version 22H2 (build 22621.1265) via official desktop app
+    - Canary build 189717 (5d9c3fd) using version 22H2 (build 22621.1265) via Brave Nightly 64-bit 1.52.47 (Chromium 112.0.5615.121)
+    - Canary build 189717 (5d9c3fd) using version 22H2 (build 22621.1265) via official desktop app
+    - Stable build 187599 (c2dd678) using version 22H2 (build 22621.1265) via official desktop app
