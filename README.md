@@ -1,3 +1,6 @@
+> [!WARNING]  
+> This script is patched in the latest Discord update.
+
 <h1 align="center">
 	duts
 </h1>
